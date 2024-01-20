@@ -12,22 +12,23 @@
 ### Статистика успешных/не успешных кейсов
 
 #### При подключении к БД MySQL:
-![1 — копия](https://user-images.githubusercontent.com/107319978/213314025-248d5357-73a3-4776-8373-4da7c72ec740.png)
-![2 — копия](https://user-images.githubusercontent.com/107319978/213314040-59e3e683-5859-420d-8e5b-92ec8a15930a.png)
-![3 — копия](https://user-images.githubusercontent.com/107319978/213314049-31dc2505-4bdb-4df6-84fb-6e3001e2f4d8.png)
-![4 — копия](https://user-images.githubusercontent.com/107319978/213314064-5bf1bd8a-651c-4e46-9319-8e529913c335.png)
+![unnamed](https://github.com/kornilovaolga/Diploma-QA/assets/133008204/7a9233dc-7ab1-46ba-9780-96d4f8da6376)
+314025-248d5357-73a3-4776-8373-4da7c72ec740.png)
+![unnamed (1)](https://github.com/kornilovaolga/Diploma-QA/assets/133008204/4bef2745-0cf3-4348-95b7-af30be4082d1)
+![unnamed (2)](https://github.com/kornilovaolga/Diploma-QA/assets/133008204/948c597f-f782-4094-ac0c-a031a0275923)
 
-* Успешных кейсов 53% (17 кейсов)
-* Неуспешных кейсов 47% (15 кейсов)
+
+* Успешных кейсов 56,25% (18 кейсов)
+* Неуспешных кейсов 43,75% (14 кейсов)
 
 #### При подключении к БД PostgreSQL:
-![1 — копия](https://user-images.githubusercontent.com/107319978/213314025-248d5357-73a3-4776-8373-4da7c72ec740.png)
-![2 — копия](https://user-images.githubusercontent.com/107319978/213314040-59e3e683-5859-420d-8e5b-92ec8a15930a.png)
-![3 — копия](https://user-images.githubusercontent.com/107319978/213314049-31dc2505-4bdb-4df6-84fb-6e3001e2f4d8.png)
-![4 — копия](https://user-images.githubusercontent.com/107319978/213314064-5bf1bd8a-651c-4e46-9319-8e529913c335.png)
+![unnamed (3)](https://github.com/kornilovaolga/Diploma-QA/assets/133008204/a064932b-9a46-4bd4-956c-ff6a6d02e29c)
+![unnamed](https://github.com/kornilovaolga/Diploma-QA/assets/133008204/68f6d64a-a1c6-4697-b74a-135d20f3c69f)
+![unnamed (1)](https://github.com/kornilovaolga/Diploma-QA/assets/133008204/9629be4f-fbb4-4107-bddd-ada94313f28b)
 
-* Успешных кейсов 53% (17 кейсов)
-* Неуспешных кейсов 47% (15 кейсов)
+
+* Успешных кейсов 56,25% (18 кейсов)
+* Неуспешных кейсов 43,75% (14 кейсов)
 
 ### Общие рекомендации
 1. Составить документацию для приложения.
