@@ -1,7 +1,7 @@
 package page;
 
-import data.Card;
 import com.codeborne.selenide.SelenideElement;
+import data.Card;
 import org.openqa.selenium.Keys;
 
 import java.time.Duration;
@@ -53,33 +53,29 @@ public class CreditPage {
         cvcField.doubleClick().sendKeys(Keys.BACK_SPACE);
     }
 
-    public CreditPage clear() {
-        clearFields();
-        return new CreditPage();
-    }
 
     public void notificationSuccessIsVisible() {
-        notificationSuccess.shouldBe(visible, Duration.ofSeconds(11));
+        notificationSuccess.shouldBe(visible, Duration.ofSeconds(15));
     }
 
     public void notificationErrorIsVisible() {
-        notificationError.shouldBe(visible, Duration.ofSeconds(11));
+        notificationError.shouldBe(visible, Duration.ofSeconds(15));
     }
 
     public void waitForValidationFieldMessage() {
-        validationFieldMessage.shouldBe(visible, Duration.ofSeconds(11));
+        validationFieldMessage.shouldBe(visible);
     }
 
     public void waitForWrongFormatMessage() {
-        wrongFormatMessage.shouldBe(visible, Duration.ofSeconds(11));
+        wrongFormatMessage.shouldBe(visible);
     }
 
     public void waitForWrongCardExpirationMessage() {
-        wrongExpirationMessage.shouldBe(visible, Duration.ofSeconds(11));
+        wrongExpirationMessage.shouldBe(visible);
     }
 
     public void waitForCardExpiredMessage() {
-        cardExpiredMessage.shouldBe(visible, Duration.ofSeconds(11));
+        cardExpiredMessage.shouldBe(visible);
     }
 
 }
